@@ -31,7 +31,8 @@ public class Main
                         } else if (dir == 'R') {
                             newPosition += steps;
                         }
-                        
+
+                        // handle negative positions and normalize to range [0-99]
                         newPosition = (newPosition % 100 + 100) % 100;
                         
                         if (newPosition == 0 && oldPosition != 0) {
