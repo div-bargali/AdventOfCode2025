@@ -1,6 +1,3 @@
-// Corrected code with all errors fixed
-// Finds numbers with repeating digit patterns and sums them
-
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
